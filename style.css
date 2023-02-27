@@ -1,0 +1,274 @@
+nav,h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    
+
+}
+a{
+    background-color: rgb(236, 232, 232);
+    border-radius: 7px;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.maPhoto2{
+    width: 400px;
+    box-shadow: 0px 8px 5px 2px;
+    border-radius: 10px;
+   
+}
+.maPhoto{
+    display: flex;
+    gap: 20px;
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    align-items: center;
+    text-shadow: 5px 3px 20px ;
+    width: 30%;
+   
+}
+section{
+    display: flex;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    
+   
+}
+
+p{
+    margin-left: 50px;
+    letter-spacing: ;
+}
+.aMonSujet{
+margin-left: 20px;
+}
+
+.monParcourActuel{
+    font-size: 18px;
+  
+  
+}
+.sousTitreAPropos{
+    letter-spacing: 5px;
+    border-bottom: solid 1px;
+   
+}
+.mesCompetences{
+    margin-bottom: 30px;
+    border-bottom: solid 1px;
+    letter-spacing: 5px;
+}
+.textMesCompetences{
+    font-size: 18px;
+}
+.titleDevFullStack{
+    text-decoration: underline;
+  width: 50%;
+  margin-left: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+ul{
+    margin-left: 25px;
+    line-height: 1em;
+}
+.mesPointsForts{
+    font-size:large;
+    margin-top: 50px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 30px;
+   font-weight: bold;
+   font-style: italic;
+}
+
+
+
+
+.mesPointsForts {
+    animation-duration: 3s;
+    animation-name:glissement;
+  
+    
+  }
+  @keyframes glissement {
+    from {
+      margin-left: 300%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 10%;
+      width: 10%;
+    }
+  }
+
+  
+a:hover{
+    color: rgb(52, 165, 165);
+}
+h5{
+    margin-left: 20px;
+    width: 100%;
+}
+.logoAdress{
+    width: 25px;
+    height: 25px;
+    margin-left: 50%;
+    margin-top: 10px;
+   
+    
+
+}
+.adresse{
+    border: solid 1px rgb(218, 211, 211);
+    padding:0px 20px 0px 0px;
+    margin: auto;
+    margin-left: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.textForm{
+    font-size: 18px;
+   
+}
+.contact{
+   
+    width: 100%;
+    
+}
+.containerContact{
+    width: 100%;
+    height: 25%;
+   
+   
+}
+h5{
+    width: 100%;
+  
+}
+iframe{
+    margin: auto;
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 28%;
+    height: 50%;
+    
+}
+input{
+    height: 40px;
+}
+.envoyer{
+    font-size: large;
+    border: none;
+    display: flex;
+   margin: auto;
+   text-align: center;
+
+   
+}
+.logoDonkey{
+    margin-left: 20px;
+}
+.parcour{
+    border-bottom: solid 1px;
+}
+span{
+    font-size: 20px;
+    vertical-align: 20px;
+}
+a {
+    color: #fff;
+    background-color: #333;
+    transition: all 1s ease-out;
+  }
+  
+  a:hover,
+  a:focus {
+    color: #333;
+    background-color: #fff;
+  }
+
+ .envoyer{ 
+  color: #fff;
+    background-color: #333;
+    transition: all 1s ease-out;
+ }
+    :hover,
+    :focus {
+      color: #333;
+      background-color: #fff;
+    }
+
+/* label{
+    display:none;
+}    
+
+@media all and (max-width: 768px)
+{
+    nav
+    {
+        height: 60px;
+    }
+    label
+    {
+        background-color: red;
+        display:initial;
+    }
+
+    label
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+
+     */
+    /* } */
+
+@media screen and (max-width:968px){
+    
+
+    header,section,nav,form{
+        flex-direction: column;
+      
+       
+    }
+
+    nav{
+        gap: 5px;
+    }
+    .adresse{
+        margin-bottom: 10px;
+    }
+}     */
+
+
+/* @media screen and (max-width:768px) {
+    .cards {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .card {
+        width: 90%;
+        margin: auto;
+    }
+}
